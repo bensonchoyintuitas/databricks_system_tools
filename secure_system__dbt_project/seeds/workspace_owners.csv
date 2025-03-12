@@ -1,0 +1,4 @@
+workspace_id,workspace_name,workspace_url,admin_email
+123,workspace_1,https://workspace_1.databricks.com,admin_1@intuitas.com
+456,workspace_2,https://workspace_2.databricks.com,admin_2@intuitas.com
+789,workspace_3,https://workspace_3.databricks.com,admin_3@intuitas.com

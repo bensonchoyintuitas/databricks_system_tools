@@ -11,7 +11,7 @@ CSV_FILE = Path("output/workspace_owners.csv")
 ENV_FILE = Path(".env")
 
 def get_account_id():
-    """Read account ID from .token file in KEY=value format."""
+    """Read account ID from .env file in KEY=value format."""
     try:
         with open(ENV_FILE, 'r') as f:
             for line in f:
