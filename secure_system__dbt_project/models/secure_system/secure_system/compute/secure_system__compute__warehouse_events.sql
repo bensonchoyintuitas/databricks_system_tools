@@ -1,5 +1,5 @@
 {{ config(
-     alias='usage'    
+     alias='warehouse_events'    
 )}}
 
 WITH workspace_admins AS (
@@ -15,8 +15,8 @@ WITH workspace_admins AS (
 )
 SELECT 
     wa.admin_email,
-    usage.*
-FROM `system`.`billing`.`usage` usage
+    sys.*
+FROM {{source('compute', 'warehouse_events')}} sys
 LEFT JOIN workspace_admins wa
-ON usage.workspace_id = wa.workspace_id
+ON sys.workspace_id = wa.workspace_id
 WHERE wa.admin_email = current_user();

@@ -36,6 +36,15 @@ models:
     secure_system:
       +database: "{{ 'secure_system ' if target.name == 'prod' else 'secure_system_test' if target.name == 'test' else 'secure_system_dev' }}"   # Different catalog for seeds depending on environment
       +materialized: view
+      access:
+        +materialized: view
+        +schema: access
       billing:
         +materialized: view
         +schema: billing
+      compute:
+        +materialized: view
+        +schema: compute
+      lakeflow:
+        +materialized: view
+        +schema: lakeflow

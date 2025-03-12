@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: access
+    database: system
+    schema: access
+    tables:
+      - name: column_lineage
+      - name: audit
+      - name: outbound_network
+      - name: assistant_events
+      - name: table_lineage  
+  - name: billing
+    database: system
+    schema: billing
+    tables:
+      - name: list_prices
+      - name: usage
+  - name: compute
+    database: system
+    schema: compute
+    tables:
+      - name: node_types
+      - name: clusters
+      - name: node_timeline
+      - name: warehouse_events
+      - name: warehouses
+  - name: lakeflow
+    database: system
+    schema: lakeflow
+    tables: 
+      - name: jobs
+      - name: job_tasks
+      - name: job_run_timeline
+      - name: job_task_run_timeline
