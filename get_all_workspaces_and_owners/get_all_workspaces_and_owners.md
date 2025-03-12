@@ -5,6 +5,10 @@ This tool fetches all Databricks workspaces and their administrators, outputting
 This CSV can then be used as a mapping table to drive dynamic system views; joined by workspace.
 
 
+##
+![Billing Image](img/billing.png)
+
+
 ## Files
 
 - `get_all_workspaces_and_owners.py`: This script fetches all Databricks workspaces and their administrators using Databricks and Azure APIs, and outputs the data to a CSV file.
