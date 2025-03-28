@@ -6,7 +6,7 @@ This CSV can then be used as a mapping table to drive dynamic system views; join
 
 
 ##
-![Billing Image](img/billing.png)
+![Billing Image](../img/billing.png)
 
 
 ## Files

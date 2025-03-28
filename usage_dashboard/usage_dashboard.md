@@ -4,7 +4,7 @@ return to [README](../README.md).
 This folder contains a RLS-applied Dashboard based on the Databricks provided dashboard [here](https://learn.microsoft.com/en-us/azure/databricks/admin/account-settings/usage) adapted to work with the `secure_system` catalog of dynamic views.
 
 ##
-![Billing Image](img/billing.png)
+![Billing Image](../img/billing.png)
 
 
 ## Instructions to Import the Dashboard into Databricks through the UI

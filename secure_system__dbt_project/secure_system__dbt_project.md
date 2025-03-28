@@ -4,7 +4,7 @@ return to [README](../README.md).
 This folder contains key objects used within a dbt project designed to create dynamic views
 
 ##
-![Billing Image](img/billing.png)
+![Billing Image](../img/billing.png)
 
 
 ## Files and folders
