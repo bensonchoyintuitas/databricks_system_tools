@@ -3,6 +3,10 @@ return to [README](../README.md).
 
 This folder contains key objects used within a dbt project designed to create dynamic views
 
+##
+![Billing Image](img/billing.png)
+
+
 ## Files and folders
 - `models`: dbt models to generate dynamic views
 - `seeds`: place the `workspace_owners.csv` output of [get_all_workspaces_and_owners](get_all_workspaces_and_owners/get_all_workspaces_and_owners.md) here. 
